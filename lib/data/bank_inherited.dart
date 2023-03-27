@@ -11,7 +11,7 @@ class BankInherited extends InheritedWidget {
 
   static BankInherited of(BuildContext context) {
     final BankInherited? result = context.dependOnInheritedWidgetOfExactType<BankInherited>();
-    assert(result != null, 'No BankInherited found in context');
+    assert(result != null, "No BankInherited found in context");
     return result!;
   }
 

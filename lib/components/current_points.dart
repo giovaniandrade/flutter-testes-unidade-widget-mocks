@@ -22,7 +22,7 @@ class _AccountPointsState extends State<AccountPoints> {
           Padding(
             padding: const EdgeInsets.only(bottom: 4.0),
             child: Text(
-              'Total points:',
+              "Total points:",
               style: Theme.of(context).textTheme.labelLarge,
             ),
           ),
